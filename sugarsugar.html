@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sugar, Sugar</title>
+  <script src="ruffle.js"></script>
+</head>
+<body>
+  <h1>Sugar, Sugar</h1>
+  <div id="flash-container"></div>
+
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      document.getElementById("flash-container").appendChild(player);
+      player.load("SugarSugar.swf");
+    });
+  </script>
+</body>
+</html>
