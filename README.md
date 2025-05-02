@@ -1,3 +1,8 @@
+This is an HTML emulation of SugarSugar, a flash game. It is running off of Ruffle Daily Build 5-1. The Ruffle SelfHosted ReadME is listed below.
+
+
+
+
 # ruffle-selfhosted
 
 ruffle-selfhosted is the intended way to get Ruffle onto your website.
